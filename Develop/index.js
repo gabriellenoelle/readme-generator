@@ -1,24 +1,55 @@
 // // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const utils = require("utils");
-const generateReadme = require(".utils/generateMarkdown");
+const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [{
+  type: "input",
+  message: "What is the title of your project?",
+  name: "Project Title"
+}, {
+  type: "input",
+  message: "Please enter a description of your application.",
+  name: "Description"
+}, {
+  type:
+  message:
+  name:
+}, {
+  type:
+  message:
+  name:
+}, {
+  type:
+  message:
+  name:
+}, {
+  type:
+  message:
+  name:
+}, {
+  type:
+  message:
+  name:
+},
+];
 
 // // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.writeToFile(fileName, data, function (err) {
+    console.log(fileName);
+    console.log(data);
+    if (err) {
+      return console.log(err);
+    } else {
+      console.log("Yay! It worked!");
+    }
+  });
+}
 
-const generateReadme = (projectName, githubName) =>
-  `
-Project: ${projectName}
-Github: ${githubName}
-`;
-console.log(project, github);
-console.log(generateReadme(project, github));
-
-fs.writeFile("README.md", generateReadme(project, github), (err) => {
+fs.writeFile("README.md", generateMarkdown(project, github), (err) => {
   if (err) throw err;
   console.log(
     "Readme generation complete! Check out index.html to see the output!"

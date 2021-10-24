@@ -27,13 +27,24 @@ function generateMarkdown(data) {
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  * 
+  
   # Installation
   These dependencies must be installed in order for the application to run properly: ${data.Installation}
 
   # Usage
-  To use this application properly, please be sure to ${data.Usage}
+  To use this application properly, please be sure to: ${data.Usage}
 
+  # License
+  This application utilizes the following license: ${data.License}
+
+  # Contributing
+  ${data.Contributing}
+
+  # Tests
+  ${data.Tests}
+
+  # Questions
+  ${data.Questions}
   
 `;
 }
