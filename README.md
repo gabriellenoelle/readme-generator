@@ -1,7 +1,7 @@
 
 
   # ReadMe-generator
-  ## https://github.com/undefined/ReadMe-generator
+  ## https://github.com/gabriellenoelle/ReadMe-generator
 
   # Description
   This application helps developers generate a README file for their project, quickly and easily!
