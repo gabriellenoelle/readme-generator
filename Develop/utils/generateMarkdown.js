@@ -36,15 +36,16 @@ function generateMarkdown(data) {
 
   # License
   This application utilizes the following license: ${data.License}
+  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   # Contributing
-  ${data.Contributing}
+  These amazing full-stack engineers contributed to this project: ${data.Contributing}
 
   # Tests
-  ${data.Tests}
+  To test this app out, you must utilize: ${data.Tests}
 
   # Questions
-  ${data.Questions}
+  Have a question for the developers? Please contact them at ${data.Questions}!
   
 `;
 }
