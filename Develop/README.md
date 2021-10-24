@@ -1,10 +1,10 @@
 
 
-  # fd
-  ## https://github.com/undefined/fd
+  # ReadMe-generator
+  ## https://github.com/undefined/ReadMe-generator
 
   # Description
-  dsfa
+  This application helps developers generate a README file for their project
 
   # Table of Contents
   * [Installation](#installation)
@@ -15,21 +15,21 @@
   * [Questions](#questions)
   
   # Installation
-  These dependencies must be installed in order for the application to run properly: safd
+  These dependencies must be installed in order for the application to run properly: inquirer, fs, util
 
   # Usage
-  To use this application properly, please be sure to: afds
+  To use this application properly, please be sure to: generating a professional readme easily
 
   # License
-  This application utilizes the following license: afsd
+  This application utilizes the following license: mit
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   # Contributing
-  These amazing full-stack engineers contributed to this project: safd
+  These amazing full-stack engineers contributed to this project: n/a
 
   # Tests
-  To test this app out, you must utilize: safd
+  To test this app out, you must utilize: node index
 
   # Questions
-  Have a question for the developers? Please contact them at asfd!
+  Have a question for the developers? Please contact them at gabrielle.donald8@gmail.com!
   
