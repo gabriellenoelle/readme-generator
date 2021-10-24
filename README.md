@@ -2,6 +2,8 @@
 
   # ReadMe-generator
   ## https://github.com/gabriellenoelle/ReadMe-generator
+  
+  https://watch.screencastify.com/v/Q3QSJhpBErANR9oJrGVN
 
   # Description
   This application helps developers generate a README file for their project, quickly and easily!
