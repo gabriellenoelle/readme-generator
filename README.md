@@ -3,7 +3,8 @@
   # ReadMe-generator
   ## https://github.com/gabriellenoelle/ReadMe-generator
   
-<iframe src="https://drive.google.com/file/d/1u8CnLHRVch8Yv9SoZA7ast1v44rvGiZs/preview" width="640" height="480"></iframe>
+  # Watch this video for a description on how to use the application! :)
+  https://watch.screencastify.com/v/Q3QSJhpBErANR9oJrGVN
 
   # Description
   This application helps developers generate a README file for their project, quickly and easily!
