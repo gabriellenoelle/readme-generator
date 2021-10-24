@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   These dependencies must be installed in order for the application to run properly: ${data.Installation}
 
   # Usage
-  To use this application properly, please be sure to: ${data.Usage}
+  This application can be used for this very vital task: ${data.Usage}
 
   # License
   This application utilizes the following license: ${data.License}
